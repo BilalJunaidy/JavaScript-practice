@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Select</title>
+        <script>
+            function select() {
+                const heading = document.querySelector('h1');
+                if (heading.innerHTML === "Salaam") {
+                    heading.innerHTML = "Bhains";
+                }
+                else {
+                    heading.innerHTML = "Salaam";
+                }
+            }
+            
+        </script>
+    </head>
+
+    <body>
+        <h1>Salaam</h1>
+        <button onclick="select()">Click Here</button>
+    </body>
+</html>
